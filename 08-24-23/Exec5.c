@@ -13,15 +13,12 @@ int main(){
   
   delta = (pow(b,2)-4*a*c); // Equação de segundo grau: (-b±√b²-4ac)/2a
 
-  if (delta<0) {
-    printf("\nA equação com os valores inseridos não tem raízes.\n\n");
+  if (a==0) {
+    raizUnica = -c/b;
+    printf("\n\nVisto que o valor inserido para A foi zero, forma-se uma equação de primeiro grau, com sua única raiz sendo %.2f\n\n", raizUnica);
   }
-  else if (a==0) {
-    raizUnica = b/(c*(-1));
-    5x - 5 = 0
-    5x = 5
-
-    printf("\n\nVisto que o valor inserido para A foi zero, forma-se uma equação de primeiro grau, com sua única raiz sendo %.2f", raizUnica);
+  else if (delta<0) {
+    printf("\nA equação com os valores inseridos não tem raízes.\n\n");
   }
   else {
     delta = sqrt(delta);
