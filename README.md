@@ -1,2 +1,2 @@
 # UFSM_ProgrammingLab-1
-The exercises I did in Programming Laboratory I during my first semester of Information Systems at UFSM.
+Todos os exercícios que fiz para a disciplina 'Laboratório de Programação I', no primeiro semestre da faculdade de 'Sistemas de Informação', na UFSM.
